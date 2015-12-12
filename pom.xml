@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.jsxm</groupId>
+    <artifactId>website</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>website</name>
+    <url>http://www.jsxm.org</url>
+    <inceptionYear>2012</inceptionYear>
+    <licenses>
+        <license>
+            <comments>
+                JSXM Maven PLugin Website CONFIDENTIAL
+                __________________
+                Unpublished Copyright © 2010-2013 Konstantinos Margaritis,
+                All Rights Reserved.
+
+                NOTICE:  All information contained herein is, and remains the property of Konstantinos Margaritis .
+
+                The intellectual and technical concepts contained herein are proprietary to the owner
+                Konstantinos Margaritis and may be covered by U.S and Foreign Patents, patents in process,
+                and are protected by trade secret or copyright law. Dissemination of this information or
+                reproduction of this material is strictly forbidden unless prior written permission is
+                obtained from Konstantinos Margaritis. Access to the source code contained herein is hereby
+                forbidden to anyone except the owner.Confidentiality and Non-disclosure agreements
+                explicitly covering such access.
+
+                The copyright notice above does not evidence any actual or intended publication
+                or disclosure  of  this source code, which includes information that is confidential
+                and/or proprietary, and is a trade secret, of  Konstantinos Margaritis. ANY REPRODUCTION,
+                MODIFICATION, DISTRIBUTION, PUBLIC  PERFORMANCE, OR PUBLIC DISPLAY OF OR THROUGH USE  OF
+                THIS  SOURCE CODE  WITHOUT  THE EXPRESS WRITTEN CONSENT OF Konstantinos Margaritis IS STRICTLY PROHIBITED,
+                AND IN VIOLATION OF APPLICABLE LAWS AND INTERNATIONAL TREATIES.  THE RECEIPT OR POSSESSION OF
+                THIS SOURCE CODE AND/OR RELATED INFORMATION DOES NOT CONVEY OR IMPLY ANY RIGHTS
+                TO REPRODUCE, DISCLOSE OR DISTRIBUTE ITS CONTENTS, OR TO MANUFACTURE, USE, OR SELL
+                ANYTHING THAT IT  MAY DESCRIBE, IN WHOLE OR IN PART.
+            </comments>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>JSXM</name>
+        <url>http://www.jsxm.org</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <name>Konstantinos Margaritis</name>
+            <email>kotsos.marga@gmail.com</email>
+            <organization>JSXM</organization>
+            <organizationUrl>http://www.jsxm.org</organizationUrl>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+                <role>analyst</role>
+                <role>tester</role>
+            </roles>
+            <timezone>+2</timezone>
+            <properties>
+                <picUrl>https://m1-s.licdn.com/media/p/2/000/118/077/24a8cfa.jpg</picUrl>
+            </properties>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+</project>
