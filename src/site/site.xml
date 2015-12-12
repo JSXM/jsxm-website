@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="JSXM Maven Plugin" xmlns="http://maven.apache.org/DECORATION/1.3.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/DECORATION/1.3.0 http://maven.apache.org/xsd/decoration-1.3.0.xsd">
+
+    <bannerLeft>
+        <name><![CDATA[
+      <span class="color-highlight">JSXM</span> Maven Plugin
+      ]]>
+    </name>
+        <href>http://www.jsxm.org</href>
+    </bannerLeft>
+
+    <publishDate position="bottom" format="yyyy-MM-dd" />
+    <version position="bottom" />
+    <googleAnalyticsAccountId>UA-20871927-5</googleAnalyticsAccountId>
+
+    <skin>
+        <groupId>lt.velykis.maven.skins</groupId>
+        <artifactId>reflow-maven-skin</artifactId>
+        <version>1.0.0</version>
+    </skin>
+    <custom>
+        <reflowSkin>
+            <skinAttribution>false</skinAttribution>
+            <!-- Make this to 'false' for local development, i.e. file:// URLs -->
+            <protocolRelativeURLs>true</protocolRelativeURLs>
+            <smoothScroll>true</smoothScroll>
+            <theme>bootswatch-united</theme>
+            <highlightJs>true</highlightJs>
+            <highlightJsTheme>github</highlightJsTheme>
+            <absoluteResourceURL>http://www.jsxm.org/</absoluteResourceURL>
+            <brand>
+                <name>
+          <![CDATA[
+<!--           <span class="color-highlight">JSXM</span> Maven Plugin
+           -->
+          <img src="http://www.jsxm.org/jsxm-maven-plugin/jsxm11.png" alt="JSXM Maven plugin"> Maven Plugin
+          ]]>
+                </name>
+                <href>http://www.jsxm.org</href>
+            </brand>            
+            <slogan>JSXM models validation, compilation, animation, and test case generation.</slogan>
+            <titleTemplate>%2$s | %1$s</titleTemplate>
+            <toc>top</toc>
+            <tocTopMax>6</tocTopMax>
+            <topNav>Guides|Archetypes|Examples|reports</topNav>
+            <bottomNav maxSpan="9">
+                <column>Overview|Archetypes</column>
+                <column>Examples</column>
+<!--                <column>Test Coverage</column> -->
+                <column>reports</column>
+            </bottomNav>
+            <bottomDescription>
+        <![CDATA[
+          <span class="color-highlight">JSXM</span>-maven-plugin serves as an interface for the JSXM tool. 
+          It provides 13 different goals each bound to a different phase. 
+          It supports all the functionality exposed by JSXM(animation, compilation, transformation, test case generation) 
+          along with new functionality such as XML validation, Repast agents compilation, 
+          graphical interface animation, batch animation, and sample creation. 
+          Last but not least, the plugin offers some extra functionality in order to 
+          smooth the integration of JSXM to existing Maven projects. 
+          For more information visit the <a href="http://www.jsxm.org/jsxm-maven-plugin/plugin-info.html#/Plugin_Documentation" title="Plugin documenentation">Plugin Documentation</a>.  
+        ]]>
+            </bottomDescription>
+            <pages>
+                <index>
+                    <titleTemplate>JSXM Maven Plugin</titleTemplate>
+                    <breadcrumbs>false</breadcrumbs>
+                    <toc>false</toc>
+                    <markPageHeader>false</markPageHeader>
+                    <sections>
+                        <carousel />
+                        <columns>2</columns>
+                        <body />
+                        <!-- <sidebar /> -->
+                    </sections>
+                </index>
+                <!-- Disable source highlighting for Maven reports -->
+                <source-repository>
+                    <highlightJs>false</highlightJs>
+                </source-repository>
+                <!-- Disable ToC for some Maven reports -->
+                <project-info>
+                    <toc>false</toc>
+                </project-info>
+                <dependencies>
+                    <tocTopMax>4</tocTopMax>
+                </dependencies>
+                <pmd>
+                    <tocTopMax>1</tocTopMax>
+                </pmd>
+                <dependency-updates-report>
+                    <tocTopMax>4</tocTopMax>
+                </dependency-updates-report>
+                <plugin-updates-report>
+                    <tocTopMax>4</tocTopMax>
+                </plugin-updates-report>
+                <changes-report>
+                    <tocTopMax>2</tocTopMax>
+                </changes-report>
+            </pages>
+        </reflowSkin>
+    </custom>
+
+    <body>
+        <!-- Add a rel to Google profile for all pages -->
+        <head>
+            <link rel="author" href="http://plus.google.com/+KonstantinosMargaritis/" />
+        </head>
+
+        <links>
+            <item name="JSXM" href="jsxmcore.html" />  
+        </links>
+
+        <breadcrumbs>
+            <item name="JSXM" href="/" />
+        </breadcrumbs>
+
+        <menu name="Guides" inherit="bottom">
+            <item name="Getting Started" href="/jsxm_getting_started.pdf" />
+            <item name="Manual" href="/JsxmMavenPluginManual.pdf" />
+        </menu>
+
+        <menu name="Overview" inherit="bottom">
+            <item name="Introduction" href="index.html" />
+            <item name="Goals" href="plugin-info.html" />
+            <item name="Usage" href="plugin-info.html#/Usage" />
+        </menu>
+        <!-- <menu name="FAQ"> <item name="Site Descriptor" href="faq.html" /> 
+            </menu> -->
+
+        <menu name="Examples" inherit="bottom">
+            <item name="Account" href="/examples/account.html" />
+            <item name="Account 2" href="/examples/account2.html" />
+            <item name="Account Debit" href="/examples/account-debit.html" />
+            <item name="Automaton" href="/examples/automaton.html" />
+            <item name="Book Borrower" href="/examples/book-borrower.html" />
+            <item name="Calculation Addition" href="/examples/calculation-addition.html" />
+            <item name="Calculation Addition Subtraction" href="/examples/calculation-addition-subtraction.html" />
+            <item name="Cart" href="/examples/cart.html" />
+            <item name="eShop" href="/examples/eShop.html" />
+            <item name="Vending Machine" href="/examples/vending-machine.html" />
+            <item name="Repast Example" href="/examples/repast-example.html" />
+        </menu>
+        <menu name="Archetypes" inherit="bottom">
+            <item name="Description" href="/archetypes/jsxm-archetypes.html" />
+            <item name="Usage" href="/archetypes/usage-archetypes.html">
+                <item name="Eclipse" href="/archetypes/eclipse.html" />
+                <item name="Console" href="/archetypes/console.html" />
+                <item name="Netbeans" href="/archetypes/netbeans.html" />
+            </item>
+        </menu>
+        <menu name="Test Coverage" inherit="bottom">
+            <item name="Unit Tests" href="/jacoco-ut/index.html" />
+            <item name="Integration Tests" href="/jacoco-it/index.html" />
+        </menu>
+        <menu name="Maven documentation" ref="reports" inherit="bottom" />
+    </body>
+</project>
