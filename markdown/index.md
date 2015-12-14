@@ -53,7 +53,7 @@ To use this Maven plugin, include it in your pom.xml plugins section:
             <plugin>
                 <groupId>org.jsxm.maven.plugin</groupId>
                 <artifactId>jsxm-maven-plugin</artifactId>
-                <version>1.4.11-RC1</version>
+                <version>1.4.11-RC4</version>
             </plugin>
   ...
 </plugins>

@@ -49,7 +49,7 @@ and make sure that you comment/uncomment the right section depending on your ope
 <plugin>
     <groupId>org.jsxm.maven.plugin</groupId>
     <artifactId>jsxm-maven-plugin</artifactId>
-    <version>1.4.11-RC</version>
+    <version>1.4.11-RC4</version>
     <configuration>
         <jsxmList>
             <!-- Unix Paths -->
