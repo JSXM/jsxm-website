@@ -39,7 +39,7 @@
           ]]>
                 </name>
                 <href>http://www.jsxm.org</href>
-            </brand>            
+            </brand>
             <slogan>JSXM models validation, compilation, animation, and test case generation.</slogan>
             <titleTemplate>%2$s | %1$s</titleTemplate>
             <toc>top</toc>
@@ -53,14 +53,14 @@
             </bottomNav>
             <bottomDescription>
         <![CDATA[
-          <span class="color-highlight">JSXM</span>-maven-plugin serves as an interface for the JSXM tool. 
-          It provides 13 different goals each bound to a different phase. 
-          It supports all the functionality exposed by JSXM(animation, compilation, transformation, test case generation) 
-          along with new functionality such as XML validation, Repast agents compilation, 
-          graphical interface animation, batch animation, and sample creation. 
-          Last but not least, the plugin offers some extra functionality in order to 
-          smooth the integration of JSXM to existing Maven projects. 
-          For more information visit the <a href="http://www.jsxm.org/jsxm-maven-plugin/plugin-info.html#/Plugin_Documentation" title="Plugin documenentation">Plugin Documentation</a>.  
+          <span class="color-highlight">JSXM</span>-maven-plugin serves as an interface for the JSXM tool.
+          It provides 13 different goals each bound to a different phase.
+          It supports all the functionality exposed by JSXM(animation, compilation, transformation, test case generation)
+          along with new functionality such as XML validation, Repast agents compilation,
+          graphical interface animation, batch animation, and sample creation.
+          Last but not least, the plugin offers some extra functionality in order to
+          smooth the integration of JSXM to existing Maven projects.
+          For more information visit the <a href="http://www.jsxm.org/jsxm-maven-plugin/plugin-info.html#/Plugin_Documentation" title="Plugin documenentation">Plugin Documentation</a>.
         ]]>
             </bottomDescription>
             <pages>
@@ -110,7 +110,7 @@
         </head>
 
         <links>
-            <item name="JSXM" href="jsxmcore.html" />  
+            <item name="JSXM" href="jsxmcore.html" />
         </links>
 
         <breadcrumbs>
@@ -127,7 +127,7 @@
             <item name="Goals" href="plugin-info.html" />
             <item name="Usage" href="plugin-info.html#/Usage" />
         </menu>
-        <!-- <menu name="FAQ"> <item name="Site Descriptor" href="faq.html" /> 
+        <!-- <menu name="FAQ"> <item name="Site Descriptor" href="faq.html" />
             </menu> -->
 
         <menu name="Examples" inherit="bottom">
@@ -140,7 +140,6 @@
             <item name="Calculation Addition Subtraction" href="/examples/calculation-addition-subtraction.html" />
             <item name="Cart" href="/examples/cart.html" />
             <item name="eShop" href="/examples/eShop.html" />
-            <item name="Vending Machine" href="/examples/vending-machine.html" />
             <item name="Repast Example" href="/examples/repast-example.html" />
         </menu>
         <menu name="Archetypes" inherit="bottom">
